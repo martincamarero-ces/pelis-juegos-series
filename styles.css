@@ -15,7 +15,6 @@ header {
     height: 4rem;
     width: 100vw;
     background-color: black;
-    
 }
 
 header ul {
@@ -40,7 +39,6 @@ a {
     justify-content: flex-end;
     padding-top: 2rem;
     padding-right: 5vw;
-
 }
 form select {
     background-color: black;
@@ -54,7 +52,7 @@ main {
     width: 90vw;
     margin-left: 5vw;
 }
-.container-grande{
+.container-grande {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,21 +60,21 @@ main {
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
-.container-pequeno{
+.container-pequeno {
     width: 20vw;
     cursor: pointer;
 }
-.container-pequeno img{
+.container-pequeno img {
     width: 100%;
     border-radius: 20px;
 }
-.container-pequeno h3{
+.container-pequeno h3 {
     width: 100%;
 }
-.container-pequeno h4{
+.container-pequeno h4 {
     width: 100%;
 }
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
@@ -86,44 +84,41 @@ main {
     min-width: 359px;
     margin-top: 4rem;
 }
-.containerFooter{
+.containerFooter {
     display: flex;
     justify-content: space-around;
     gap: 6rem;
-
-} 
-.footerIzq{
+}
+.footerIzq {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.footerDrch{
+.footerDrch {
     display: flex;
     flex-direction: column;
     text-align: center;
-
 }
-.listaFooter{
+.listaFooter {
     margin-bottom: 1rem;
 }
-.logoFooter{
+.logoFooter {
     width: 4rem;
     cursor: pointer;
 }
-.copy{
+.copy {
     color: white;
     font-size: 12px;
     margin-top: 2rem;
 }
 
-
-.body-subir{
+.body-subir {
     display: grid;
     align-items: center;
     justify-content: center;
 }
 
-.form{
+.form {
     background-color: #fff;
     color: #222;
     width: 60vw;
@@ -131,25 +126,24 @@ main {
     padding-bottom: 3rem;
     padding-left: 2rem;
     border-radius: 20px;
-    
 }
 
-.caja-input{
+.caja-input {
     display: flex;
     flex-direction: column;
 }
 
-.caja-input input{
+.caja-input input {
     width: 60%;
 }
 
-.caja-boton{
+.caja-boton {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 }
-.caja-boton input{
+.caja-boton input {
     width: 40%;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
@@ -160,26 +154,43 @@ main {
     font-weight: bold;
     cursor: pointer;
 }
-.boton-redirigir{
+.boton-redirigir {
     background-color: black;
     color: #fff;
     width: 40vw;
     margin-left: 20vw;
     border: none;
     font-size: bold;
-    padding-top: .8rem;
-    padding-bottom: .8rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
     border-radius: 20px;
     margin-top: 2rem;
     cursor: pointer;
 }
 
-.caja-boton-regresar{
+.caja-boton-regresar {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.caja-boton-regresar button{
+.caja-boton-regresar2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.caja-boton-regresar button {
+    width: 40%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.caja-boton-regresar2 form button {
     width: 40%;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;

@@ -49,5 +49,19 @@ if (!isset($_SESSION['usuario'])) {
                 <input type="submit" value="ENVIAR" />
             </div>
         </form>
+<?php
+    
+        echo"<div class='caja-boton-regresar'>".
+            "<button id='logoutButton'>".
+                "LOGOUT".
+            "</button>".
+        "</div>"
+?>
+<script>
+    document.getElementById("logoutButton").addEventListener("click", function() {
+        window.location.href = "logout.php";
+    });
+</script>
+
     </body>
 </html>
