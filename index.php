@@ -81,6 +81,7 @@ $contador = 0;
         }
 
         mysqli_close($conexion);
+        
         ?>
 
         <?php if (isset($_SESSION['usuario'])): ?>
