@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pelis - Juegos - Series / 24h</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body class="body-subir">
+        <form class="form" action="login.php" method="POST">
+            <div class="caja-input">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required />
+            </div>
+            <div class="caja-input">
+                <label for="contrasena">Contraseña:</label>
+                <input
+                    type="password"
+                    id="contrasena"
+                    name="contrasena"
+                    required
+                />
+            </div>
+            <div class="caja-boton">
+                <input type="submit" value="ENVIAR" />
+            </div>
+        </form>
+        <div class="caja-boton-regresar">
+            <button onclick="window.location.href='index.php'">
+                REGRESAR A LA PÁGINA PRINCIPAL
+            </button>
+        </div>
+    </body>
+</html>
