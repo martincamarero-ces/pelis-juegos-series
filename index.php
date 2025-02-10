@@ -85,7 +85,7 @@ $contador = 0;
         ?>
 
         <?php if (isset($_SESSION['usuario'])): ?>
-            <button class="boton-redirigir" onclick="window.location.href='formulario-subir.html'">
+            <button class="boton-redirigir" onclick="window.location.href='formulario-subir.php'">
                 SUBIR ARCHIVO
             </button>
         <?php else: ?>
