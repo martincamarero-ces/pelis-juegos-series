@@ -1,10 +1,9 @@
 <?php
-    session_start();
-    if (!isset($_SESSION['usuario'])) {
-        die("Acceso denegado");
-    }
+session_start();
+if (!isset($_SESSION['usuario'])) {
+    die("Acceso denegado");
+}
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>

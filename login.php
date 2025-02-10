@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $usuario_db = mysqli_fetch_assoc($resultado);
         if ($contrasena == $usuario_db['contrasena']) {
             $_SESSION['usuario'] = $usuario;
-            header('Location: formulario-subir.html');
+            header('Location: formulario-subir.php');
             exit; 
         } else {
             echo "Contraseña incorrecta.";

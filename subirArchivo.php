@@ -1,4 +1,5 @@
 <?php
+
 $conexion = mysqli_connect("localhost", "root", "", "base1");
 
 if (!$conexion) {
